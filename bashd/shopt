@@ -1,0 +1,64 @@
+shopt -s autocd
+shopt -u assoc_expand_once
+shopt -s cdable_vars
+shopt -s cdspell
+shopt -s checkjobs
+shopt -s checkwinsize
+shopt -s complete_fullquote
+shopt -s direxpand
+shopt -s dirspell
+shopt -s dotglob
+shopt -u execfail
+shopt -s expand_aliases
+shopt -s extglob
+shopt -s extquote
+shopt -u failglob
+shopt -u globasciiranges
+shopt -s globstar
+shopt -u gnu_errfmt
+shopt -s histappend
+shopt -s histreedit
+shopt -s histverify
+shopt -s hostcomplete
+shopt -u inherit_errexit
+shopt -s interactive_comments
+shopt -s lastpipe
+shopt -s lithist
+shopt -s localvar_inherit
+shopt -s localvar_unset
+shopt -s login_shell
+shopt -s nocaseglob
+shopt -s nocasematch
+shopt -s progcomp
+shopt -s progcomp_alias
+shopt -s promptvars
+shopt -u shift_verbose
+shopt -s sourcepath
+shopt -s cmdhist
+shopt -os allexport     # 	off
+shopt -os braceexpand   # 	on
+shopt -os emacs         # 	on
+shopt -ou errexit       # 	off
+shopt -ou errtrace      # 	off
+shopt -ou functrace     # 	off
+shopt -ou hashall       # 	off
+shopt -os histexpand    # 	on
+shopt -os history       # 	on
+shopt -ou ignoreeof     # 	off
+shopt -os interactive-comments # on
+shopt -os keyword       # 	off
+shopt -os monitor       # 	on
+shopt -ou noclobber     # 	off
+shopt -ou noexec        # 	off
+shopt -ou noglob        # 	off
+shopt -ou nolog         # 	off
+shopt -os notify        # 	off
+shopt -ou nounset       # 	off
+shopt -ou onecmd        # 	off
+shopt -ou physical      # 	off
+shopt -os pipefail      # 	off
+shopt -ou posix         # 	off
+shopt -os privileged    # 	off
+shopt -ou verbose       # 	off
+shopt -ou vi            # 	off
+shopt -ou xtrace        # 	off
